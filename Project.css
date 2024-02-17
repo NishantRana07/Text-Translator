@@ -377,16 +377,7 @@ body{
 .menu1 li:hover{
   color:#04e4a5;
 }
-@media (max-width: 660px){
-  .header
-  {
-    display:none;
-  }
-  .navbar1
-  {
-    display:none;
-  }
-}
+
 .menu1 li
 {
   margin-left:40px;
