@@ -113,7 +113,7 @@ body{
 .controls .exchange{
   color: #adadad;
   cursor: pointer;
-  font-size: 16px;
+  font-size: 14px;
   transition: transform 0.2s ease;
 }
 .controls i:active{
@@ -121,7 +121,7 @@ body{
 }
 .container button{
   width: 100%;
-  padding: 14px;
+  padding: 10px;
   outline: none;
   border: none;
   color: #fff;
@@ -172,12 +172,13 @@ body{
   margin-top:10px;
   height:40px;
   width:300px;
+  padding:10px;
   border-style:solid;
   border-color:red;
   border-width:1px;
   justify-content: center;
   align-items:center;
-  display:flex;
+  display:inline-block;
   font-size:24px;
   border-radius:13px;
   background-color : #294d61;
@@ -187,26 +188,34 @@ body{
 {
   padding:10px;
 }
-@media (max-width: 600px){
+@media (max-width: 640px){
 .header
 {
   margin-top:10px;
-  height:auto;
+  padding:7px;
+  height:70px;
   width:auto;
   border-style:solid;
   border-color:red;
   border-width:1px;
   justify-content: center;
   align-items:center;
-  display:flex;
+  display:inline-block;
   font-size:16px;
   border-radius:13px;
 }
-  .menu1 li
-  {
-    font-size:16px;
-  }
+#l1,#l2,#l3,#l4,#l5
+{
+  display:flex;
+  font-size:10px;
+  margin-left:0px;
 }
+.header1
+{
+  margin-left:-105px;
+}
+}
+  
 .header:hover
 {
   border-width:1px 1px 4px 4px;
