@@ -169,7 +169,7 @@ body{
 }
 .header
 {
-  
+  margin-top:10px;
   height:40px;
   width:300px;
   border-style:solid;
@@ -182,6 +182,22 @@ body{
   border-radius:13px;
   background-color : #294d61;
   color:#f1916d;
+}
+@media (max-width: 660px){
+.header
+{
+  margin-top:10px;
+  height:auto;
+  width:auto;
+  border-style:solid;
+  border-color:red;
+  border-width:1px;
+  justify-content: center;
+  align-items:center;
+  display:flex;
+  font-size:18px;
+  border-radius:13px;
+}
 }
 .header:hover
 {
